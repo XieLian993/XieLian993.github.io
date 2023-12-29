@@ -16,7 +16,7 @@ body {
 
 .navbar {
 	display: flex;
-	background-color: #006400;
+	background-color: #8B0000;
 }
 
 .navbar a {
@@ -27,7 +27,7 @@ body {
 } 
 
 .navbar a:hover {
-	background-color: #8FBC8F;
+	background-color: #FA8072;
 	color: black;
 }
 
@@ -38,12 +38,12 @@ body {
 
 .side {
 	flex: 30%;
-	background-color: #8FBC8F;
+	background-color: #FA8072;
 	padding: 20px;
 }
 
 .fakeimg {
-	background-color: #6B8E23;
+	background-color: #8B0000;
 	width: 100%;
 	padding: 20px;
 }
@@ -51,7 +51,7 @@ body {
 .footer {
 	padding: 20px;
 	text-align: center;
-	background: #6B8E23;
+	background: #8B0000;
 }
 
 @media screen and (max-width: 700px) {
