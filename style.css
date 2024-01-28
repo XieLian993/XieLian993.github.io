@@ -1,10 +1,62 @@
-button{
-	background: #93ca3cb8;
-	width: 140px;
-	height: 100px;
-	text-transform: uppercase;
+* {
+	box-sizing: border-box;
 }
 
-#theRunButton{
-	position: absolute;
+body {
+	font-family: Arial;
+	margin: 0;
 }
+
+.header {
+	padding: 60px;
+	text-align: center;
+	background-image: url("img/oo.jpg");
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	background-color: #006400;
+}
+
+.navbar a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+} 
+
+.navbar a:hover {
+	background-color: #8FBC8F;
+	color: black;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side {
+	flex: 30%;
+	background-color: #8FBC8F;
+	padding: 20px;
+}
+
+.fakeimg {
+	background-color: #6B8E23;
+	width: 100%;
+	padding: 20px;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	background: #6B8E23;
+}
+
+@media screen and (max-width: 700px) {
+	.row .navbar {
+		flex-direction: column;
+	}
+}
+
